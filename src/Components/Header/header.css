@@ -4,6 +4,7 @@
   position: absolute;
   right: 5vw;
   top: 2vw;
+  align-items: center;
   /* text-align: left; */
 }
 .image {
@@ -16,7 +17,7 @@
   flex-direction: column;
   padding: 10px;
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 .info a {
   color: black;

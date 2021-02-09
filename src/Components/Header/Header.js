@@ -1,4 +1,6 @@
 import "./header.css";
+import GitHubIcon from "@material-ui/icons/GitHub";
+import LinkedInIcon from "@material-ui/icons/LinkedIn";
 
 const Header = () => {
   return (
@@ -18,14 +20,14 @@ const Header = () => {
           target="_blank"
           rel="noreferrer"
         >
-          Github
+          <GitHubIcon />
         </a>
         <a
           href="https://www.linkedin.com/in/hassan-zakaria-886a1315a/"
           target="_blank"
           rel="noreferrer"
         >
-          linkedin
+          <LinkedInIcon />
         </a>
       </div>
     </header>

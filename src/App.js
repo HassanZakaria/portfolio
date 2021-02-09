@@ -1,7 +1,6 @@
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
 import Header from "./Components/Header/Header";
-// import Navigation from "./Components/Navigation/Navigation";
 import CurrentProjects from "./Components/Pages/CurrentProjects/CurrentProjects";
 import Me from "./Components/Pages/Me/Me";
 import Qualities from "./Components/Pages/Qaulities/Qualities";
