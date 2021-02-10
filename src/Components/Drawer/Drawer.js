@@ -9,7 +9,7 @@ import "./drawer.css";
 import { IconButton } from "@material-ui/core";
 import MenuIcon from "@material-ui/icons/Menu";
 
-const drawerWidth = 240;
+const drawerWidth = 200;
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -76,10 +76,10 @@ function ResponsiveDrawer(props) {
             <Link to="/experience">
               <li className="nav-item">Experience</li>{" "}
             </Link>
-            <Link to="coursescompleted">
+            <Link to="/courses-completed">
               <li className="nav-item">Courses Completed</li>{" "}
             </Link>
-            <Link to="/currentlyworkingon">
+            <Link to="/currently-working-on">
               <li className="nav-item">Currently Working On</li>{" "}
             </Link>
           </ul>
