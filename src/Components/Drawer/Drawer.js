@@ -33,10 +33,6 @@ const useStyles = makeStyles((theme) => ({
     borderRight: "none",
     overflow: "hidden",
   },
-  content: {
-    flexGrow: 1,
-    padding: theme.spacing(3),
-  },
 }));
 
 function ResponsiveDrawer(props) {
@@ -61,7 +57,7 @@ function ResponsiveDrawer(props) {
         <nav className="nav-bar">
           <ul className="nav-bar-list">
             <Link to="/">
-              <li className="nav-item">Me</li>{" "}
+              <li className="nav-item">Home</li>{" "}
             </Link>
             <Link to="/education">
               <li className="nav-item">Education</li>{" "}

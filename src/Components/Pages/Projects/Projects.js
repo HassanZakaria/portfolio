@@ -7,6 +7,7 @@ import GitHubIcon from "@material-ui/icons/GitHub";
 const useStyles = makeStyles({
   root: {
     marginTop: "20vh",
+    marginRight: "5vh",
     backgroundColor: "#25222287",
     borderRadius: "20px",
     textAlign: "center",

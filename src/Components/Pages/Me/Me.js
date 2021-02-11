@@ -8,6 +8,7 @@ const useStyles = makeStyles({
   root: {
     marginTop: "4vw",
     marginBottom: "2vh",
+    marginRight: "4vh",
     color: "white",
     background: "linear-gradient(to right, #434343, #000000)",
     borderRadius: "20px",

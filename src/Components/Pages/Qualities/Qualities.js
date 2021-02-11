@@ -7,6 +7,7 @@ const useStyles = makeStyles({
   root: {
     marginTop: "6vh",
     marginBottom: "3vh",
+    marginRight: "5vh",
     color: "white",
     backgroundColor: "#25222287",
     borderRadius: "20px",
