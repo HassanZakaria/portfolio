@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Me from "./Components/Pages/Me/Me";
-import Qualities from "./Components/Pages/Qaulities/Qualities";
+import Qualities from "./Components/Pages/Qualities/Qualities";
 import Skills from "./Components/Pages/Skills/Skills";
 import Education from "./Components/Pages/Education/Education";
 import Projects from "./Components/Pages/Projects/Projects";
@@ -16,11 +16,12 @@ const useStyles = makeStyles(() => ({
     flexGrow: 1,
   },
   layout: {
-    margin: "5vw",
+    marginLeft: "12vw",
+    marginBottom: "2vw",
   },
   App: {
     minHeight: "100vh",
-    width: "100vw",
+    minWidth: "100vw",
     background:
       "linear-gradient(45deg, rgb(193, 193, 199) 0%, rgb(146, 116, 116) 48%, rgb(30, 50, 54) 100%)",
   },

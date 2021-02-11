@@ -1,5 +1,3 @@
-import "./me.css";
-import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import Card from "@material-ui/core/Card";
 import CardContent from "@material-ui/core/CardContent";
@@ -8,9 +6,10 @@ import Header from "../../Header/Header";
 
 const useStyles = makeStyles({
   root: {
-    marginTop: 60,
+    marginTop: "4vw",
+    marginBottom: "2vh",
     color: "white",
-    backgroundColor: "black",
+    background: "linear-gradient(to right, #434343, #000000)",
     borderRadius: "20px",
   },
 });

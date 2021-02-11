@@ -9,7 +9,7 @@ import "./drawer.css";
 import { IconButton } from "@material-ui/core";
 import MenuIcon from "@material-ui/icons/Menu";
 
-const drawerWidth = 170;
+const drawerWidth = 180;
 
 const useStyles = makeStyles((theme) => ({
   root: {

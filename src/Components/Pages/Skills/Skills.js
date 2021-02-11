@@ -1,5 +1,3 @@
-import "./skills.css";
-import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import Card from "@material-ui/core/Card";
 import CardContent from "@material-ui/core/CardContent";
@@ -7,13 +5,15 @@ import Typography from "@material-ui/core/Typography";
 
 const useStyles = makeStyles({
   root: {
-    marginTop: 60,
-    backgroundColor: "black",
+    marginTop: "9vh",
+    backgroundColor: "#25222287",
     borderRadius: "20px",
   },
   title: {
     fontSize: 24,
     color: "white",
+    paddingTop: 10,
+    textAlign: "center",
   },
 });
 

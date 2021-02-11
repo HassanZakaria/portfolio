@@ -1,5 +1,3 @@
-import "./projects.css";
-import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import Card from "@material-ui/core/Card";
 import CardContent from "@material-ui/core/CardContent";
@@ -8,12 +6,16 @@ import GitHubIcon from "@material-ui/icons/GitHub";
 
 const useStyles = makeStyles({
   root: {
-    marginTop: 60,
-    backgroundColor: "black",
+    marginTop: "20vh",
+    backgroundColor: "#25222287",
     borderRadius: "20px",
+    textAlign: "center",
   },
   title: {
     fontSize: 24,
+    color: "white",
+  },
+  icon: {
     color: "white",
   },
 });
@@ -39,7 +41,7 @@ export default function Projects() {
               rel="noreferrer"
               style={{ color: "black" }}
             >
-              <GitHubIcon style={{ color: "white" }} />
+              <GitHubIcon className={classes.icon} />
             </a>
           </Typography>
         </CardContent>
@@ -60,7 +62,7 @@ export default function Projects() {
               rel="noreferrer"
               style={{ color: "black" }}
             >
-              <GitHubIcon style={{ color: "white" }} />
+              <GitHubIcon className={classes.icon} />
             </a>
           </Typography>
         </CardContent>
