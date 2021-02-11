@@ -7,13 +7,14 @@ import Typography from "@material-ui/core/Typography";
 
 const useStyles = makeStyles({
   root: {
-    minWidth: 275,
-    padding: 5,
-    marginTop: 40,
-    marginLeft: 20,
+    marginTop: 60,
+    color: "white",
+    backgroundColor: "black",
+    borderRadius: "20px",
   },
   title: {
     fontSize: 24,
+    color: "white",
   },
 });
 

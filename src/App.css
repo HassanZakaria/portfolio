@@ -1,16 +1,14 @@
-.App {
-  height: 100vh;
-  width: 100vw;
-  /* background: rgb(2, 0, 36); */
-  background: linear-gradient(
-    90deg,
-    rgb(193, 193, 199) 0%,
-    rgb(146, 116, 116) 48%,
-    rgb(30, 50, 54) 100%
-  );
-}
-.layout {
-  margin-left: 20vw;
-  margin-right: 30vw;
-  position: absolute;
-}
+/*.App {*/
+/*  height: 100vh;*/
+/*  width: 100vw;*/
+/*  background: linear-gradient(*/
+/*    90deg,*/
+/*    rgb(193, 193, 199) 0%,*/
+/*    rgb(146, 116, 116) 48%,*/
+/*    rgb(30, 50, 54) 100%*/
+/*  );*/
+/*}*/
+/*.layout {*/
+/*  margin-left: 20vw;*/
+/*  margin-right: 30vw;*/
+/*}*/

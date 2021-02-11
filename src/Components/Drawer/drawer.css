@@ -19,11 +19,3 @@ a:link,
 a:active {
   text-decoration: none;
 }
-.linearGradient {
-  background-color: linear-gradient(
-    90deg,
-    rgb(193, 193, 199) 0%,
-    rgb(146, 116, 116) 48%,
-    rgb(30, 50, 54) 100%
-  );
-}

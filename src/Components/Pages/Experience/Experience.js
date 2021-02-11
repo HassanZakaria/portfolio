@@ -1,42 +1,3 @@
-// import "./experience.css";
-
-// const Experience = () => {
-//   return (
-//     <div className="experience">
-//       <h1>Mosaic House Design Hotel</h1>
-//       <h2>Front Desk</h2>
-//       <ul>
-//         <li>Manage guests’ invoices and payments</li>
-//         <li>
-//           Support and aid guests and facilitate their check-in and check-out
-//           procedures
-//         </li>
-//         <li>
-//           Assist in the training of new employees, interpret and communicate
-//           work procedures and company policies
-//         </li>
-//         <li>Maintain telecommunications systems and security</li>
-//       </ul>
-//       <h1>El Faramawy</h1>
-//       <h2>Salesman and Accountant</h2>
-//       <ul>
-//         <li>
-//           -Supported customers and provided excellent customer experience
-//           leading to over-achievement across all customer satisfaction metrics
-//         </li>
-//         <li>
-//           -Enhanced the selling and bookkeeping process via constant process
-//           improvement by determining inefficiencies.
-//         </li>
-//         <li>
-//           -Assisted in selling an immense variety of the company’s products to
-//           potential consumers.
-//         </li>
-//       </ul>
-//     </div>
-//   );
-// };
-// export default Experience;
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import Card from "@material-ui/core/Card";
@@ -45,13 +6,18 @@ import Typography from "@material-ui/core/Typography";
 
 const useStyles = makeStyles({
   root: {
-    minWidth: 275,
-    padding: 5,
-    marginTop: 40,
-    marginLeft: 20,
+    marginTop: 60,
+    color: "white",
+    backgroundColor: "black",
+    borderRadius: "20px",
   },
   title: {
-    fontSize: 20,
+    fontSize: 24,
+    color: "white",
+  },
+  pos: {
+    color: "white",
+    fontSize: 18,
   },
 });
 
@@ -69,23 +35,29 @@ export default function Experience() {
           >
             Mosaic House Design Hotel
           </Typography>
-          <Typography className={classes.pos} color="textSecondary">
+          <Typography className={classes.pos} color="textPrimary">
             Front Desk
           </Typography>
-          <Typography variant="body2" component="p">
-            Manage guests’ invoices and payments.
-          </Typography>
-          <Typography variant="body2" component="p">
-            Support and aid guests and facilitate their check-in and check-out
-            procedures.
-          </Typography>
-          <Typography variant="body2" component="p">
-            Assist in the training of new employees, interpret and communicate
-            work procedures and company policies.
-          </Typography>
-          <Typography variant="body2" component="p">
-            Maintain telecommunications systems and security.
-          </Typography>
+          <ul style={{ padding: 15 }}>
+            <Typography variant="body2" component="p">
+              <li>Manage guests’ invoices and payments.</li>
+            </Typography>
+            <Typography variant="body2" component="p">
+              <li>
+                Support and aid guests and facilitate their check-in and
+                check-out procedures.
+              </li>
+            </Typography>
+            <Typography variant="body2" component="p">
+              <li>
+                Assist in the training of new employees, interpret and
+                communicate work procedures and company policies.
+              </li>
+            </Typography>
+            <Typography variant="body2" component="p">
+              <li>Maintain telecommunications systems and security.</li>
+            </Typography>
+          </ul>
         </CardContent>
       </Card>
       <Card className={classes.root}>
@@ -97,22 +69,32 @@ export default function Experience() {
           >
             El Faramawy
           </Typography>
-          <Typography className={classes.pos} color="textSecondary">
+          <Typography className={classes.pos} color="textPrimary">
             Salesman and Accountant
           </Typography>
-          <Typography variant="body2" component="p">
-            Supported customers and provided excellent customer experience
-            leading to over-achievement across all customer satisfaction
-            metrics.
-          </Typography>
-          <Typography variant="body2" component="p">
-            Enhanced the selling and bookkeeping process via constant process
-            improvement by determining inefficiencies.
-          </Typography>
-          <Typography variant="body2" component="p">
-            Assisted in selling an immense variety of the company’s products to
-            potential consumers.
-          </Typography>
+          <ul style={{ padding: 15 }}>
+            <Typography variant="body2" component="p">
+              <li>
+                Supported customers and provided excellent customer experience
+              </li>
+              <li>
+                leading to over-achievement across all customer satisfaction
+                metrics.
+              </li>
+            </Typography>
+            <Typography variant="body2" component="p">
+              <li>
+                Enhanced the selling and bookkeeping process via constant
+                process improvement by determining inefficiencies.
+              </li>
+            </Typography>
+            <Typography variant="body2" component="p">
+              <li>
+                Assisted in selling an immense variety of the company’s products
+                to potential consumers.
+              </li>
+            </Typography>
+          </ul>
         </CardContent>
       </Card>
     </>

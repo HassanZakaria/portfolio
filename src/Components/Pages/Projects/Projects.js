@@ -8,13 +8,13 @@ import GitHubIcon from "@material-ui/icons/GitHub";
 
 const useStyles = makeStyles({
   root: {
-    minWidth: 275,
-    padding: 5,
-    marginTop: 40,
-    marginLeft: 20,
+    marginTop: 60,
+    backgroundColor: "black",
+    borderRadius: "20px",
   },
   title: {
     fontSize: 24,
+    color: "white",
   },
 });
 
@@ -35,12 +35,11 @@ export default function Projects() {
           <Typography variant="body2" component="p">
             <a
               href="https://github.com/HassanZakaria/calculator"
-              alt="calculator project"
               target="_blank"
               rel="noreferrer"
               style={{ color: "black" }}
             >
-              <GitHubIcon />
+              <GitHubIcon style={{ color: "white" }} />
             </a>
           </Typography>
         </CardContent>
@@ -57,12 +56,11 @@ export default function Projects() {
           <Typography variant="body2" component="p">
             <a
               href="https://github.com/HassanZakaria/portfolio"
-              alt="portfolio"
               target="_blank"
               rel="noreferrer"
               style={{ color: "black" }}
             >
-              <GitHubIcon />
+              <GitHubIcon style={{ color: "white" }} />
             </a>
           </Typography>
         </CardContent>

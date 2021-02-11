@@ -11,7 +11,7 @@ const Header = () => {
         width="200"
         height="200"
         className="image"
-      ></img>
+      />
       <div className="info">
         <div>React Developer</div>
         <div>Prague, Czech Republic</div>

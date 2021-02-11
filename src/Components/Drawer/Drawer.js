@@ -9,7 +9,7 @@ import "./drawer.css";
 import { IconButton } from "@material-ui/core";
 import MenuIcon from "@material-ui/icons/Menu";
 
-const drawerWidth = 200;
+const drawerWidth = 170;
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -31,6 +31,7 @@ const useStyles = makeStyles((theme) => ({
   drawerPaper: {
     width: drawerWidth,
     borderRight: "none",
+    overflow: "hidden",
   },
   content: {
     flexGrow: 1,
@@ -55,6 +56,7 @@ function ResponsiveDrawer(props) {
         style={{
           padding: 0,
         }}
+        onClick={() => setMobileOpen(false)}
       >
         <nav className="nav-bar">
           <ul className="nav-bar-list">
