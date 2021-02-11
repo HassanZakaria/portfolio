@@ -60,7 +60,7 @@ function ResponsiveDrawer(props) {
       >
         <nav className="nav-bar">
           <ul className="nav-bar-list">
-            <Link to="/me">
+            <Link to="/">
               <li className="nav-item">Me</li>{" "}
             </Link>
             <Link to="/education">

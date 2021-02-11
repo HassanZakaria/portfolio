@@ -39,7 +39,7 @@ export default function App() {
             <Grid item xs={8}>
               <Switch>
                 <div className={classes.layout}>
-                  <Route path="/me" component={Me} />
+                  <Route path="/" exact component={Me} />
                   <Route path="/education" component={Education} />
                   <Route path="/skills" component={Skills} />
                   <Route path="/qualities" component={Qualities} />
