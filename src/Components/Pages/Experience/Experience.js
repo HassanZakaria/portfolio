@@ -11,6 +11,8 @@ const useStyles = makeStyles({
     color: "white",
     backgroundColor: "#25222287",
     borderRadius: "20px",
+    boxShadow:
+      "5px 5px 5px 1px rgb(13 13 13 / 49%), 0px 1px 7px 0px rgb(0 0 0 / 60%), 0px 1px 3px 0px rgb(0 0 0 / 50%)",
   },
   title: {
     fontSize: 24,
