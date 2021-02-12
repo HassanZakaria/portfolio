@@ -2,6 +2,13 @@ import { makeStyles } from "@material-ui/core/styles";
 import Card from "@material-ui/core/Card";
 import CardContent from "@material-ui/core/CardContent";
 import Typography from "@material-ui/core/Typography";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faReact,
+  faJsSquare,
+  faHtml5,
+  faCss3,
+} from "@fortawesome/free-brands-svg-icons";
 
 const useStyles = makeStyles({
   root: {
@@ -30,6 +37,7 @@ export default function Education() {
             color="textPrimary"
             gutterBottom
           >
+            <FontAwesomeIcon icon={faReact} />
             React
           </Typography>
         </CardContent>
@@ -41,6 +49,7 @@ export default function Education() {
             color="textPrimary"
             gutterBottom
           >
+            <FontAwesomeIcon icon={faJsSquare} />
             JavaScript
           </Typography>
         </CardContent>
@@ -52,6 +61,7 @@ export default function Education() {
             color="textPrimary"
             gutterBottom
           >
+            <FontAwesomeIcon icon={faHtml5} />
             HTML5
           </Typography>
         </CardContent>
@@ -63,6 +73,7 @@ export default function Education() {
             color="textPrimary"
             gutterBottom
           >
+            <FontAwesomeIcon icon={faCss3} />
             CSS
           </Typography>
         </CardContent>
