@@ -6,8 +6,8 @@ import Header from "../../Header/Header";
 
 const useStyles = makeStyles({
   root: {
-    marginTop: "4vw",
-    marginBottom: "2vh",
+    marginTop: "4vh",
+    marginBottom: "4vh",
     marginRight: "4vh",
     color: "white",
     background: "linear-gradient(to right, #434343, #000000)",
