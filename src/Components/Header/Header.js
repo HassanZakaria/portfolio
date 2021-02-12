@@ -1,6 +1,9 @@
 import "./header.css";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
+import { faReact } from "@fortawesome/free-brands-svg-icons";
 
 const Header = () => {
   return (
@@ -13,8 +16,14 @@ const Header = () => {
         className="image"
       />
       <div className="info">
-        <div>React Developer</div>
-        <div>Prague, Czech Republic</div>
+        <div>
+          <FontAwesomeIcon icon={faReact} />
+          <span style={{ padding: 3 }}>React Developer</span>
+        </div>
+        <div>
+          <FontAwesomeIcon icon={faMapMarkerAlt} />
+          <span style={{ padding: 3 }}>Prague, Czech Republic</span>
+        </div>
         <a
           href="https://github.com/HassanZakaria"
           target="_blank"

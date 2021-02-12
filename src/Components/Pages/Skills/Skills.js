@@ -38,7 +38,7 @@ export default function Education() {
             gutterBottom
           >
             <FontAwesomeIcon icon={faReact} />
-            React
+            <span style={{ padding: 5 }}>React</span>
           </Typography>
         </CardContent>
       </Card>
@@ -50,7 +50,7 @@ export default function Education() {
             gutterBottom
           >
             <FontAwesomeIcon icon={faJsSquare} />
-            JavaScript
+            <span style={{ padding: 5 }}>JavaScript</span>
           </Typography>
         </CardContent>
       </Card>
@@ -62,7 +62,7 @@ export default function Education() {
             gutterBottom
           >
             <FontAwesomeIcon icon={faHtml5} />
-            HTML5
+            <span style={{ padding: 5 }}>HTML5</span>
           </Typography>
         </CardContent>
       </Card>
@@ -74,7 +74,7 @@ export default function Education() {
             gutterBottom
           >
             <FontAwesomeIcon icon={faCss3} />
-            CSS
+            <span style={{ padding: 5 }}>CSS</span>
           </Typography>
         </CardContent>
       </Card>

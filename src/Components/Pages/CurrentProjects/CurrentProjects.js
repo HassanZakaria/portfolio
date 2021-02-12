@@ -47,7 +47,7 @@ export default function CurrentlyWorkingOn() {
       <Card className={classes.root}>
         <CardContent>
           <Typography variant="body1" component="p" className={classes.text}>
-            Learning Backend Javascript frameworks such as Node.js and Express
+            Learning Backend Javascript frameworks such Express
           </Typography>
         </CardContent>
       </Card>
