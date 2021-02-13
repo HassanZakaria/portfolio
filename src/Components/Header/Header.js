@@ -18,25 +18,25 @@ const Header = () => {
       <div className="info">
         <div>
           <FontAwesomeIcon icon={faReact} />
-          <span style={{ padding: 3 }}>React Developer</span>
+          <span style={{ paddingLeft: 5 }}>React Developer</span>
         </div>
         <div>
           <FontAwesomeIcon icon={faMapMarkerAlt} />
-          <span style={{ padding: 3 }}>Prague, Czech Republic</span>
+          <span style={{ paddingLeft: 5 }}>Prague, Czech Republic</span>
         </div>
         <a
           href="https://github.com/HassanZakaria"
           target="_blank"
           rel="noreferrer"
         >
-          <GitHubIcon />
+          <GitHubIcon style={{ margin: 4 }} fontSize={"large"} />
         </a>
         <a
           href="https://www.linkedin.com/in/hassan-zakaria-886a1315a/"
           target="_blank"
           rel="noreferrer"
         >
-          <LinkedInIcon />
+          <LinkedInIcon style={{ margin: 4 }} fontSize={"large"} />
         </a>
       </div>
     </header>
